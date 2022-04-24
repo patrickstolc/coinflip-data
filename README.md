@@ -9,3 +9,8 @@ To download and install a specific dataset you need to install the [coinflip pac
 python -m coinflip download [symbol] [subset]
 ```
 You can find an overview of available datasets in [releases](https://github.com/patrickstolc/coinflip-data/releases).
+
+To remove a dataset, run the following command,
+```
+python -m coinflip remove [symbol] [subset]
+```
