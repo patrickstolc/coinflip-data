@@ -9,11 +9,11 @@ The [coinflip package](https://github.com/patrickstolc/coinflip) is required to 
 To download a dataset, use the following code, with the name of the symbol and subset that you want to use.
 ```python
 from coinflip.universe import load
-df = load('aapl', 'reddit')  # returns a Pandas dataframe
+df = load('AAPL', 'reddit')  # returns a Pandas dataframe
 ```
 
 To remove a dataset from within your code:
 ```python
 from coinflip.universe import remove
-remove('aapl', 'reddit')
+remove('AAPL', 'reddit')
 ```
